@@ -6,7 +6,6 @@ const App = {
 
     removeButtonCreate() {
         const button = document.createElement("button")
-        //button.id = nameForm.personName.value
         button.textContent = "Remove"
         button.addEventListener('click', this.removeName)
         return button
@@ -41,7 +40,6 @@ const App = {
         personName.appendChild(promoteButton)
         const details = document.querySelector('.details')
         details.insertBefore(personName, details.firstChild)
-        //document.getElementById(button.id).addEventListener('click', this.removeName(button.id))
         },
 } 
 
